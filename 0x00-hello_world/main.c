@@ -8,5 +8,6 @@
 
 int main(void)
 {
+	printf("Hello kids")
 	return (0);
 }
