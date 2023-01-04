@@ -2,15 +2,15 @@
 
 /**
  *
- * print_alphabet_x10 - prints 10 times the alphabet, in lowercase 
- * folowed by \n
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
+ * folowed by newline
  */
 void print_alphabet_x10(void)
 {
 	char alph;
 	int i;
+
 	i = 0;
-	
 	while (i < 10)
 	{
 		for (alph = 'a'; alph <= 'z'; alph++)
