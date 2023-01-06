@@ -13,7 +13,7 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10) /*i is never incremented so the loop will never stop*/
+	while (i < 10)
 	{
 		break;
 	}
