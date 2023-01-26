@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_triangle - prints a triangle on the terminal with the 
- * character '#'
+ * character #
  * @size: size of the triangle
  *
  * Return: void
