@@ -22,7 +22,7 @@ void rev_string(char *s)
 		i++;
 	}
 	k = 0;
-	while (k <= j)
+	while (k < j)
 	{
 		*(s + k) = *(a + k);
 		k++;
