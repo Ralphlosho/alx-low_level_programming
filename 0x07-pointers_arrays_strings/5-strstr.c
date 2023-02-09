@@ -41,5 +41,10 @@ char *_strstr(char *haystack, char *needle)
 		}
 		k++;
 	}
-	return (NULL);
+	if (needle[0] == '\0')
+	{
+		return (haystack);
+	}
+	else
+		return (NULL);
 }
